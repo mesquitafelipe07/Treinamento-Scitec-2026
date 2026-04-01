@@ -18,6 +18,6 @@ def verificar_segurança(lista: List[int]) -> None: # o "-> None" indica que nã
     if not alertas: # not alertas -> alertas está vazio
         print("Sistema Seguro")
     else:
-        print(f"⚠️ Revisar valores: {lista}")
+        print(f"⚠️  Revisar valores: {alertas}")
 
 verificar_segurança(valores_brutos)
