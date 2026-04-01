@@ -13,7 +13,7 @@ def verificar_segurança(lista: List[int]) -> None: # o "-> None" indica que nã
 
     for valor in lista:
         if valor > 100:
-            alertas.append(valor) # aprendi em AlgoBio
+            alertas.append(valor) # aprendi em Algoritmos em Bioinformática
 
     if not alertas: # not alertas -> alertas está vazio
         print("Sistema Seguro")
